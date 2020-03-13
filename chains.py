@@ -1,5 +1,5 @@
 ##
-# @author ¯\\_(ツ)_/¯ El_Gloton ¯\\_(ツ)_/¯ <moseevvp@gmail.com>
+# @author ¯\\_(ツ)_/¯ El_Gloton ¯\\_(ツ)_/¯ 
  # @file Description
  # @desc Created on 2020-03-13 1:02:06 pm
  # @copyright APPI SASU
