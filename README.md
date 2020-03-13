@@ -1,4 +1,4 @@
-# Comment Parser
+# ABOUT
 
 [![Build Status](https://travis-ci.org/jeanralphaviles/comment_parser.svg?branch=master)](https://travis-ci.org/jeanralphaviles/comment_parser/branches)
 [![PyPI status](https://img.shields.io/pypi/status/comment_parser.svg)](https://pypi.python.org/pypi/comment_parser/)
