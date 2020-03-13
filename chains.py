@@ -8,7 +8,7 @@
 import json
 import re
 import datetime
-from collections import Mapping, Sequence
+import collections
 from functools import wraps
 
 from funcy import first, second, last, walk_values, flip, re_find, silent, juxt, notnone, \
@@ -229,7 +229,7 @@ class Ops:
     # TODO: make these two work with bytes?
     trim = lambda text: str.strip(text)
     strip = has_args(lambda dirt=None: lambda text: str.strip(text, dirt))
-    normspace = normalize_whitespace = lambda text: re.sub(r"\s\s+", " ", text).strip()
+    normspace = normalize_whitespace = lambda text: re.sub(r'\s+', ' ', text).strip()
     split = has_args(lambda by: lambda text: text.split(by))
     re = has_args(re_finder)
 
@@ -242,7 +242,7 @@ class Ops:
 
     @has_args
     def map(self, f):
-        if not callable(f) and isinstance(f, (Mapping, Sequence)):
+        if not callable(f) and isinstance(f, (collections.Mapping, collections.Sequence)):
             f = C.multi(f)
         return lambda els: lmap(f, els)
     filter = has_args(lambda pred: lambda seq: lfilter(pred, seq))
