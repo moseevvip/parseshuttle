@@ -2,7 +2,7 @@
 # @author ¯\\_(ツ)_/¯ El_Gloton ¯\\_(ツ)_/¯
  # @file --response--
  # @desc Created on 2020-03-12 4:25:34 pm
- # @copyright APPI SASU
+ # @copyright MIT
  #
 
 
