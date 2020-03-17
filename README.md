@@ -1,3 +1,5 @@
+![](http://i.imgur.com/wYi2CkD.png)
+
 # ABOUT
 
 [![Build Status](https://travis-ci.org/jeanralphaviles/comment_parser.svg?branch=master)](https://travis-ci.org/jeanralphaviles/comment_parser/branches)
