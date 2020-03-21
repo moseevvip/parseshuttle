@@ -1,9 +1,10 @@
-##
+# -*- coding: utf-8 -*-
+# -------------------------------------------------------------------------------
 # @author ¯\\_(ツ)_/¯ El_Gloton ¯\\_(ツ)_/¯
- # @file --response--
- # @desc Created on 2020-03-12 4:25:34 pm
- # @copyright MIT
- #
+# @file --response--
+# @desc Created on 2020-03-12 4:25:34 pm
+# @copyright MIT
+# -------------------------------------------------------------------------------
 
 
 import json
@@ -85,8 +86,3 @@ class Response:
 
     def xpath(self, query, **params):
         return self.root.xpath(query, **params)
-
-
-# r = Response()
-# r.cast(requests.get('https://citrusforum.org.ua/?sid=d970a8dcf27415de564a66867c202536'))
-# print(r.__str__())
